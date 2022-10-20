@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>D-flipflop.dig</elementName>
+      <elementAttributes/>
+      <pos x="80" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>D-flipflop.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Q</string>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="20" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>c</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>D</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="60" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="180" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>R</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>!Q</string>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="-20"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-40" y="0"/>
+      <p2 x="-20" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="0"/>
+      <p2 x="80" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="0"/>
+      <p2 x="200" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-20"/>
+      <p2 x="80" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="-20"/>
+      <p2 x="200" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-20"/>
+      <p2 x="280" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="20"/>
+      <p2 x="60" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="20"/>
+      <p2 x="80" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-40"/>
+      <p2 x="200" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="-40"/>
+      <p2 x="80" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-40"/>
+      <p2 x="0" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-40"/>
+      <p2 x="20" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="40"/>
+      <p2 x="-20" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-60"/>
+      <p2 x="280" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-60"/>
+      <p2 x="200" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="60"/>
+      <p2 x="180" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-60"/>
+      <p2 x="0" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-20"/>
+      <p2 x="-20" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="20"/>
+      <p2 x="-20" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="0"/>
+      <p2 x="180" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-40"/>
+      <p2 x="260" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="20"/>
+      <p2 x="60" y="60"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

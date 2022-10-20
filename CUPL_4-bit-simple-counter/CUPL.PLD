@@ -1,0 +1,20 @@
+Name     4-bit-simple-counter.dig ;
+PartNo   00 ;
+Date     12.10.2022 ;
+Revision 01 ;
+Designer ryan ;
+Company  unknown ;
+Assembly None ;
+Location unknown ;
+Device   g22v10 ;
+
+ar = 'b'0 ;
+sp = 'b'0 ;
+
+/* inputs */
+
+/* outputs */
+PIN 14 = Y;
+
+/* combinatorial logic */
+Y = 'b'0;
